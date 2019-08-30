@@ -7,7 +7,7 @@ using TMPro;
 public class playerController : MonoBehaviour
 {
     public float speed, jumpForce, damage;
-    public int life, maxLife;
+    public float life, maxLife;
     public TextMeshProUGUI lifeText;
     private float boundaryLeft = -8.89f;
     private float boundaryRight = 8.89f;
