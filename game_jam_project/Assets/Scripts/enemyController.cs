@@ -8,7 +8,7 @@ public class enemyController : MonoBehaviour
     public float damage;
     public bool isAttacking = true;
     public float health;
-    public GameObject player;
+    public GameObject player, gameController;
     private Vector3 playerPosition;
     private float enemyDist = 1.5f;
     public float timer = 0, MaxTime;
@@ -20,6 +20,7 @@ public class enemyController : MonoBehaviour
     {
         scale = transform.localScale;
         player = GameObject.FindGameObjectWithTag("Player");
+        gameController = GameObject.FindGameObjectWithTag("GameController");
     }
     // Update is called once per frame
     void Update()
@@ -40,6 +41,7 @@ public class enemyController : MonoBehaviour
         if (health <= 0)
         {
             Destroy(this.gameObject);
+            gameController.GetComponent<gameController>().currentNumberofEnemies -= 1;
         }
 
         if (!isAttacking && timer <= MaxTime)

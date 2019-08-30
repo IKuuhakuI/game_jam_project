@@ -62,13 +62,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\attackController.cs" />
-    <Compile Include="Assets\enemyAttackController.cs" />
-    <Compile Include="Assets\enemyController.cs" />
-    <Compile Include="Assets\enemySpawner.cs" />
-    <Compile Include="Assets\playerController.cs" />
-    <Compile Include="Assets\selfDisabler.cs" />
-    <Compile Include="Assets\skyBoxController.cs" />
+    <Compile Include="Assets\Scripts\arrowController.cs" />
+    <Compile Include="Assets\Scripts\attackController.cs" />
+    <Compile Include="Assets\Scripts\enemyAttackController.cs" />
+    <Compile Include="Assets\Scripts\enemyBowController.cs" />
+    <Compile Include="Assets\Scripts\enemyController.cs" />
+    <Compile Include="Assets\Scripts\enemySpawner.cs" />
+    <Compile Include="Assets\Scripts\gameController.cs" />
+    <Compile Include="Assets\Scripts\playerController.cs" />
+    <Compile Include="Assets\Scripts\rangedEnemyController.cs" />
+    <Compile Include="Assets\Scripts\selfDisabler.cs" />
+    <Compile Include="Assets\Scripts\skyBoxController.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1442771755714048066}
   - component: {fileID: 1442771755714048069}
   - component: {fileID: 1442771755714048068}
+  - component: {fileID: -8485412417828116331}
   m_Layer: 8
   m_Name: GoblinPrefab
   m_TagString: Enemy
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1442771755714048071}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.2716656, y: 0.008786, z: -0.51294637}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 1561464414599161994}
   m_Father: {fileID: 0}
@@ -73,9 +74,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.0061409646, g: 0.4339623, b: 0.03196628, a: 1}
-  m_FlipX: 0
+  m_Sprite: {fileID: -782680419068634861, guid: c285dc1ea541a4c4cb2f295233de8c4a,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.16, y: 0.16}
@@ -120,16 +122,16 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
+    oldSize: {x: 0.53, y: 0.35}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 0.55, y: 0.35}
   m_EdgeRadius: 0
 --- !u!114 &1442771755714048068
 MonoBehaviour:
@@ -143,14 +145,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a506579c61d7dc647a5e4cc32f9ce139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.05
+  speed: 0.15
   damage: 10
   isAttacking: 1
   health: 2
   player: {fileID: 0}
+  gameController: {fileID: 0}
   timer: 0
   MaxTime: 0.5
   attackDir: 0
+--- !u!95 &-8485412417828116331
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442771755714048071}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 29b2c3b3e611f77418e2cb5987e950c5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5922341604576826494
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,7 +185,7 @@ GameObject:
   - component: {fileID: 6947795199790554363}
   - component: {fileID: 123211899565185534}
   - component: {fileID: 2384654546065577639}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: GoblinAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,8 +200,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5922341604576826494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.111, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0.191, y: -0.109, z: 0}
+  m_LocalScale: {x: 0.88968754, y: 0.66789067, z: 1}
   m_Children: []
   m_Father: {fileID: 1442771755714048064}
   m_RootOrder: 0
@@ -222,7 +244,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 0.95129585, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -230,7 +252,7 @@ SpriteRenderer:
   m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &123211899565185534

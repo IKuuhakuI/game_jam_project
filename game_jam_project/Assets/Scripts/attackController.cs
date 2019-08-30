@@ -22,6 +22,10 @@ public class attackController : MonoBehaviour
         {
             collision.GetComponent<enemyController>().health -= GetComponentInParent<playerController>().damage;
         }
+        else if (collision.tag == "rangedEnemy")
+        {
+            collision.GetComponent<rangedEnemyController>().health -= GetComponentInParent<playerController>().damage;
+        }
         
     }
 }

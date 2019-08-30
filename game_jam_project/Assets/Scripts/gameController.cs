@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemySpawner : MonoBehaviour
+public class gameController : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+    public int maxNumberofEnemies, currentNumberofEnemies;
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(enemyPrefab, transform);
+        currentNumberofEnemies = 0;
     }
 
     // Update is called once per frame

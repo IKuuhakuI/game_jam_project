@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: c285dc1ea541a4c4cb2f295233de8c4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -782680419068634861
+    second: Goblin_Spear_Projeto_Sprites_0
+  - first:
+      213: -1372937451985987368
+    second: Goblin_Spear_Projeto_Sprites_1
+  - first:
+      213: 3995161209722076804
+    second: Goblin_Spear_Projeto_Sprites_2
+  - first:
+      213: -3418522908329041350
+    second: Goblin_Spear_Projeto_Sprites_3
+  - first:
+      213: -6954713728350580451
+    second: Goblin_Spear_Projeto_Sprites_4
+  - first:
+      213: 84045073832992973
+    second: Goblin_Spear_Projeto_Sprites_5
+  - first:
+      213: -5810373195542828027
+    second: Goblin_Spear_Projeto_Sprites_6
+  - first:
+      213: -3586303537338423541
+    second: Goblin_Spear_Projeto_Sprites_7
+  - first:
+      213: 8112806701178793770
+    second: Goblin_Spear_Projeto_Sprites_8
+  - first:
+      213: -4296564984500639847
+    second: Goblin_Spear_Projeto_Sprites_9
+  - first:
+      213: 26574948919809519
+    second: Goblin_Spear_Projeto_Sprites_10
+  - first:
+      213: -4970406613351831150
+    second: Goblin_Spear_Projeto_Sprites_11
+  - first:
+      213: 3157595517684555951
+    second: Goblin_Spear_Projeto_Sprites_12
+  - first:
+      213: -6665156186125704809
+    second: Goblin_Spear_Projeto_Sprites_13
+  - first:
+      213: 1398636598326013492
+    second: Goblin_Spear_Projeto_Sprites_14
+  - first:
+      213: -1203529775779974707
+    second: Goblin_Spear_Projeto_Sprites_15
+  - first:
+      213: -3963855777455535197
+    second: Goblin_Spear_Projeto_Sprites_16
+  - first:
+      213: -4133344151158308959
+    second: Goblin_Spear_Projeto_Sprites_17
+  - first:
+      213: 3036868558222261116
+    second: Goblin_Spear_Projeto_Sprites_18
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 252
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c9c7296295d0041be2917e150e0930
+      internalID: -782680419068634861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2054fa725b0308946af23ba90961a974
+      internalID: -1372937451985987368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e65861b3fde1144832191fd9e88591
+      internalID: 3995161209722076804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 208
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a28e358ffbe2be48a066ff3bc02b2b8
+      internalID: -3418522908329041350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 208
+        width: 57
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22b4a2dc69c91743b7dea3046959dc7
+      internalID: -6954713728350580451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 222
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59be456602c301e42982fb4f47d07c82
+      internalID: 84045073832992973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 222
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaf83304bd586240b7284f27f2c84c5
+      internalID: -5810373195542828027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 220
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c29de6aeb84114f9a7bd24ff797193
+      internalID: -3586303537338423541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 167
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75e49e931bb4e948adf51731da1a0c0
+      internalID: 8112806701178793770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 167
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381080c59ac5e2c44bfac844b1e0c8a7
+      internalID: -4296564984500639847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 167
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffa5bdfbd3bc9240becdbc5e4c2ff1b
+      internalID: 26574948919809519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 167
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2896fab7ae0396543b9791917a7131fd
+      internalID: -4970406613351831150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 167
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f909ed8274b234ba6a709088049764
+      internalID: 3157595517684555951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 181
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2d37f1baeb01b4bb6aa717a7a6ba9d
+      internalID: -6665156186125704809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 178
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a187038a16d764394eaeaf8c51ca78
+      internalID: 1398636598326013492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 122
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c77f6713447864bb7a450a765aea46
+      internalID: -1203529775779974707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 122
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7aa6023e88cd6499de3c469cce6148
+      internalID: -3963855777455535197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 136
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ee6f00dbcad1d419646caa9b54e8e8
+      internalID: -4133344151158308959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Projeto_Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 134
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ac553afa8d5d5459ca1073338f627e
+      internalID: 3036868558222261116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

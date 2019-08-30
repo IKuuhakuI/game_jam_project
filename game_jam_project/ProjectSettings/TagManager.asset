@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - playerAttack
+  - rangedEnemy
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Player
   - Floor
   - walls
-  - 
+  - EnemyAttack
   - 
   - 
   - 

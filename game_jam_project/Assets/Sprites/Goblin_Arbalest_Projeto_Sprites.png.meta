@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: 504795de5b0cccd4b9949d6dad96f5be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7740550745322279142
+    second: Goblin_Arbalest_Projeto_Sprites_0
+  - first:
+      213: 4464113214660411269
+    second: Goblin_Arbalest_Projeto_Sprites_1
+  - first:
+      213: -8101940242952647744
+    second: Goblin_Arbalest_Projeto_Sprites_2
+  - first:
+      213: 3547988031122354057
+    second: Goblin_Arbalest_Projeto_Sprites_3
+  - first:
+      213: -8335328287511535723
+    second: Goblin_Arbalest_Projeto_Sprites_4
+  - first:
+      213: 1067290104933105095
+    second: Goblin_Arbalest_Projeto_Sprites_5
+  - first:
+      213: 6059397593349928007
+    second: Goblin_Arbalest_Projeto_Sprites_6
+  - first:
+      213: 2997802028912680302
+    second: Goblin_Arbalest_Projeto_Sprites_7
+  - first:
+      213: 6634396466989294683
+    second: Goblin_Arbalest_Projeto_Sprites_8
+  - first:
+      213: -2769654348174500636
+    second: Goblin_Arbalest_Projeto_Sprites_9
+  - first:
+      213: -6633722346841227466
+    second: Goblin_Arbalest_Projeto_Sprites_10
+  - first:
+      213: -4558504851252568916
+    second: Goblin_Arbalest_Projeto_Sprites_11
+  - first:
+      213: 1409802107619650642
+    second: Goblin_Arbalest_Projeto_Sprites_12
+  - first:
+      213: -3890208091356126686
+    second: Goblin_Arbalest_Projeto_Sprites_13
+  - first:
+      213: -3722771386851366614
+    second: Goblin_Arbalest_Projeto_Sprites_14
+  - first:
+      213: -6234085689187725571
+    second: Goblin_Arbalest_Projeto_Sprites_15
+  - first:
+      213: -1395512093433773767
+    second: Goblin_Arbalest_Projeto_Sprites_16
+  - first:
+      213: -8045585829051895272
+    second: Goblin_Arbalest_Projeto_Sprites_17
+  - first:
+      213: 6679232367571317851
+    second: Goblin_Arbalest_Projeto_Sprites_18
+  - first:
+      213: 7638679106146569473
+    second: Goblin_Arbalest_Projeto_Sprites_19
+  - first:
+      213: -3240617750917644481
+    second: Goblin_Arbalest_Projeto_Sprites_20
+  - first:
+      213: -8953634596140737486
+    second: Goblin_Arbalest_Projeto_Sprites_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 252
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b511cb37840f09a4d8a05bd304503922
+      internalID: -7740550745322279142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f8348bda4f5af4397ec5358f6a1e27
+      internalID: 4464113214660411269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 266
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be43708d717012b4f96455389dd19687
+      internalID: -8101940242952647744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 208
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7da4815acfe884e919b55759374373
+      internalID: 3547988031122354057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 208
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec636759b9e6ad41a1da0d4a460ec41
+      internalID: -8335328287511535723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 222
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66505048f062fb640ab381fe972f6950
+      internalID: 1067290104933105095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 222
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1b519225245c9478d8418696d3d38a
+      internalID: 6059397593349928007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 220
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcefce8d54a1c04fba8d57407125cd8
+      internalID: 2997802028912680302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 222
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f711b159af08b4f98d9a87119dc4e0
+      internalID: 6634396466989294683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 219
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70764886ef2ae046935925e2cf0579d
+      internalID: -2769654348174500636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 221
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c9a0aa8f6096541af6827e5afeafb6
+      internalID: -6633722346841227466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 167
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5981806e69bd784ba79acc39a2312a2
+      internalID: -4558504851252568916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 167
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd603df685ca0f42a0edda7e6d80cc8
+      internalID: 1409802107619650642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 167
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b377f065097e08c4589bf6d056739eba
+      internalID: -3890208091356126686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 167
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05935a92e34a0a348932fcf6050e9020
+      internalID: -3722771386851366614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 167
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0180fd87c2b2c8e4384fc33f6e3c9b3c
+      internalID: -6234085689187725571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 181
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0de9bdcb6ec1f84c952ef15ef872b49
+      internalID: -1395512093433773767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 178
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb8772bec10aa94381b549a0417407b
+      internalID: -8045585829051895272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 122
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020e8cfe58700a944b9f4527554ec80e
+      internalID: 6679232367571317851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 121
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026b3cfbfc8a5264fabee8740f8d135f
+      internalID: 7638679106146569473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 136
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c7738f0b27c5d40926098ee20e48c2
+      internalID: -3240617750917644481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Arbalest_Projeto_Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 134
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f00d030fc38c0f4cad56401e0e1ee25
+      internalID: -8953634596140737486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
