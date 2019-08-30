@@ -48,30 +48,54 @@ public class playerController : MonoBehaviour
             timeText.text = "0";
             this.gameObject.SetActive(false);
         }       
-        if (Input.GetKey("right")&&transform.position.x+0.7f+speed<=boundaryRight){
+
+        //Andar para direita
+        if (Input.GetKey("right")&&transform.position.x+0.7f+speed<=boundaryRight)
+        {
+            animator.ResetTrigger("isAttacking");
             transform.localScale = new Vector3(scale.x, scale.y);
             transform.position= new Vector3(transform.position.x+speed, transform.position.y,transform.position.z);
             animator.SetBool("isWalking", true);
         }
+
+        //Andar para esquerda
         if (Input.GetKey("left") && transform.position.x - 0.7f - speed >= boundaryLeft)
         {
+            animator.ResetTrigger("isAttacking");
             transform.localScale = new Vector3(-scale.x, scale.y);
             transform.position=new Vector3(transform.position.x-speed, transform.position.y,transform.position.z);
             animator.SetBool("isWalking", true);
         }
+
+        
         if (Input.GetKeyUp("left")|| Input.GetKeyUp("right"))
         {
             animator.SetBool("isWalking", false);
         }
-        if (Input.GetKeyDown("up")&& transform.position.y<= -0.8f)
+
+        //Ataque
+        if (Input.GetKeyDown("space") && animator.GetBool("isJumping") == false)
+        {
+            transform.Find("player attack").gameObject.SetActive(true);
+            animator.SetBool("isAttacking", true);
+            if(animator.GetCurrentAnimatorStateInfo(0).length > animator.GetCurrentAnimatorStateInfo(0).normalizedTime)
+            {
+                animator.SetBool("isAttacking", false);
+            }
+        }
+
+        //Pulo
+        if (Input.GetKeyDown("up")&& transform.position.y<= -0.8f && animator.GetBool("isAttacking") == false)
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(1, jumpForce));
             animator.SetBool("isJumping", true);
         }
-        if (Input.GetKeyDown("space"))
+        
+
+        //Queda
+        if(animator.GetBool("isJumping") == true && transform.position.y >= jumpForce)
         {
-            transform.Find("player attack").gameObject.SetActive(true);
-            animator.SetBool("isAttacking", true);
+            animator.SetBool("isJumping", false);
         }
     }
     public void setJumpingFalse()
