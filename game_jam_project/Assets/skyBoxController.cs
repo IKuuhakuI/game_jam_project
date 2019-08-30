@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+ * 
+ * Mudar a variável que pula o tempo baseado no dano para velocidade
+ * Multiplicar a velocidade por t
+ * 
+ * 
+ * */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +16,7 @@ public class skyBoxController : MonoBehaviour
     public float maxOpacity, minimumOpacity;
     public float duration; //seconds
     private float startTime;
+    public float danoPulaTempo;
     public SpriteRenderer sprite;
 
     // Start is called before the first frame update
@@ -19,8 +28,10 @@ public class skyBoxController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(Time.time);
-        float t = (Time.time - startTime) / duration;
+        //Debug.Log(danoAceleraTempo);
+        float t = (Time.time - startTime + danoPulaTempo) / duration; //olhe o cabeçalho ali encima
+        Debug.Log(t);
+        Debug.Log((Time.time - startTime) / duration);
         sprite.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(maxOpacity, minimumOpacity, t)); //selecione a cor aqui
     }
 }

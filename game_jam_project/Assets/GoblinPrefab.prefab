@@ -144,12 +144,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.05
-  damage: 0.5
+  damage: 10
   isAttacking: 1
   health: 2
   player: {fileID: 0}
   timer: 0
   MaxTime: 0.5
+  attackDir: 0
 --- !u!1 &5922341604576826494
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,6 +21,7 @@ public class enemyAttackController : MonoBehaviour
         Debug.Log("hit");
         if (collision.tag == "Player")
         {
+            GameObject.Find("skyBox").GetComponent<skyBoxController>().danoPulaTempo += GetComponentInParent<enemyController>().damage; //o dano faz o tempo pular pra frente
             collision.GetComponent<playerController>().life -= GetComponentInParent<enemyController>().damage;
             GetComponentInParent<enemyController>().isAttacking = false;
             GetComponentInParent<enemyController>().timer = 0;
