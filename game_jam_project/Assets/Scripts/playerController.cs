@@ -14,6 +14,7 @@ public class playerController : MonoBehaviour
     private float boundaryRight = 8.89f;
     private int phase;
     private Vector3 scale;
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,19 +51,39 @@ public class playerController : MonoBehaviour
         if (Input.GetKey("right")&&transform.position.x+0.7f+speed<=boundaryRight){
             transform.localScale = new Vector3(scale.x, scale.y);
             transform.position= new Vector3(transform.position.x+speed, transform.position.y,transform.position.z);
+            animator.SetBool("isWalking", true);
         }
         if (Input.GetKey("left") && transform.position.x - 0.7f - speed >= boundaryLeft)
         {
             transform.localScale = new Vector3(-scale.x, scale.y);
             transform.position=new Vector3(transform.position.x-speed, transform.position.y,transform.position.z);
+            animator.SetBool("isWalking", true);
+        }
+        if (Input.GetKeyUp("left")|| Input.GetKeyUp("right"))
+        {
+            animator.SetBool("isWalking", false);
         }
         if (Input.GetKeyDown("up")&& transform.position.y<= -0.8f)
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(1, jumpForce));
+            animator.SetBool("isJumping", true);
         }
         if (Input.GetKeyDown("space"))
         {
             transform.Find("player attack").gameObject.SetActive(true);
+            animator.SetBool("isAttacking", true);
         }
+    }
+    public void setJumpingFalse()
+    {
+        animator.SetBool("isJumping", false);
+    }
+    public void setAttackingFalse()
+    {
+        animator.SetBool("isAttacking", false);
+    }
+    public void setDamageFalse()
+    {
+        animator.SetBool("isDamage", false);
     }
 }

@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &164956283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,7 +233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &341856285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1242,6 +1242,7 @@ GameObject:
   - component: {fileID: 1771742553}
   - component: {fileID: 1771742557}
   - component: {fileID: 1771742556}
+  - component: {fileID: 1771742558}
   m_Layer: 9
   m_Name: player
   m_TagString: Player
@@ -1308,13 +1309,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3148344914815020053, guid: 924eb17ab9cee4149bb6e92bba692d3c,
+  m_Sprite: {fileID: 7907020310977492838, guid: ab2a22657f7a0b84ab72f7db1cc318c3,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 0.59, y: 0.55}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1353,7 +1354,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.59, y: 0.55}
-    newSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.59, y: 0.55}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1383,6 +1384,26 @@ MonoBehaviour:
   damageTimeMultiplier: 1
   lifeText: {fileID: 1805194139}
   timeText: {fileID: 1658577563}
+  animator: {fileID: 1771742558}
+--- !u!95 &1771742558
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771742552}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: edd234489c6d99a4fac7cf37a67cefbc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1805194137
 GameObject:
   m_ObjectHideFlags: 0
