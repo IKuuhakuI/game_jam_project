@@ -11,9 +11,7 @@ public class enemySpawner : MonoBehaviour
     void Start()
     {
         spawnTimer = 0;
-        spawnTime = Random.Range(1.5f*spawnMultiplier, maxSpawnTime * spawnMultiplier);
-        Instantiate(enemyPrefab, transform);
-        gameController.GetComponent<gameController>().currentNumberofEnemies += 1;
+        spawnTime = Random.Range(0f, 0.5f);
 
     }
 

@@ -31,6 +31,7 @@ public class rangedEnemyController : MonoBehaviour
             MaxTime = Random.Range(0.75f, maxAttackSpeed);
             temp=Instantiate(projectile, transform.position, transform.rotation);
             temp.GetComponent<arrowController>().direction = new Vector3(transform.localScale.x, 0, 0);
+            temp.transform.localScale = new Vector3(4*(transform.localScale.x / Mathf.Abs(transform.localScale.x)), 2, 0);
         }
         if (health<=0)
         {
