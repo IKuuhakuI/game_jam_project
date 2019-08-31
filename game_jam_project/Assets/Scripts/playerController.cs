@@ -18,9 +18,17 @@ public class playerController : MonoBehaviour
     public Animator animator;
     public int score;
     public GameObject gameOver;
+    public SpriteRenderer playerSpriteRender;
+    public bool takingDmg;
+    public float timeDmg;
+    public Image clock;
+    private Color red, white;
     // Start is called before the first frame update
     void Start()
     {
+        red = new Color(1f, 0.6f, 0.6f);
+        white = new Color(1f, 1f, 1f);
+        takingDmg = false;
         score = 0;
         deathTimer = timeToDeath;
         life = maxLife;
@@ -97,9 +105,30 @@ public class playerController : MonoBehaviour
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(1, jumpForce));
             //animator.SetBool("isJumping", true);
         }
-        
+
+        //
+
+        if (takingDmg)                                                     //MUDA COR QUANDO TOMA DANO
+        {
+            timeDmg += Time.deltaTime;
+            if (timeDmg <= 0.5)
+            {
+                clock.color = red;
+                timeText.color = red;
+                playerSpriteRender.color = red;
+            }
+            else
+            {
+                takingDmg = false;
+                timeDmg = 0f;
+                timeText.color = white;
+                playerSpriteRender.color = white;
+                clock.color = white;
+            }
+        }
 
     }
+
 
     public void setJumpingFalse()
     {

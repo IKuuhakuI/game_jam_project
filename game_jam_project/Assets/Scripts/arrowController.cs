@@ -28,6 +28,7 @@ public class arrowController : MonoBehaviour
         {
 
             collision.GetComponent<playerController>().damageTimeMultiplier += 0.2f;
+            collision.GetComponent<playerController>().takingDmg = true;
             
         }
         Destroy(gameObject);

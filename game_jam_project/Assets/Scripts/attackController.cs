@@ -21,6 +21,7 @@ public class attackController : MonoBehaviour
         if (collision.tag=="Enemy")
         {
             collision.GetComponent<enemyController>().health -= GetComponentInParent<playerController>().damage;
+            collision.GetComponent<enemyController>().takingDmg = true;
             if (collision.GetComponent<enemyController>().health<=0)
             {
                 GetComponentInParent<playerController>().score += 1;
@@ -30,6 +31,7 @@ public class attackController : MonoBehaviour
         else if (collision.tag == "rangedEnemy")
         {
             collision.GetComponent<rangedEnemyController>().health -= GetComponentInParent<playerController>().damage;
+            collision.GetComponent<rangedEnemyController>().takingDmg = true;
             if (collision.GetComponent<rangedEnemyController>().health <= 0)
             {
                 GetComponentInParent<playerController>().score += 1;

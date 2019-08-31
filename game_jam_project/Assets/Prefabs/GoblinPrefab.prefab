@@ -153,6 +153,9 @@ MonoBehaviour:
   timer: 0
   MaxTime: 0.5
   attackDir: 0
+  takingDmg: 0
+  timeDmg: 0
+  greenGbSR: {fileID: 1442771755714048067}
 --- !u!1 &5922341604576826494
 GameObject:
   m_ObjectHideFlags: 0

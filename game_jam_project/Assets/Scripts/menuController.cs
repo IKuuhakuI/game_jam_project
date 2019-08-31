@@ -25,8 +25,6 @@ public class menuController : MonoBehaviour
         {
             started = true;
             timeStartSC = Time.time;
-            Debug.Log(timeStartSC);
-            Debug.Log("AAAAA");
             cutSceneObj.SetActive(true);
 
             cutScene();
@@ -58,12 +56,9 @@ public class menuController : MonoBehaviour
     }
     void cutScene2()
     {
-        Debug.Log(Time.time);
         cutSceneObj.SetActive(true);
         if((Time.time > (timeStartSC + 8) && started))
         {
-            //Debug.Log(scenes[currentScene]);
-            Debug.Log("entrou if");
             scenes[currentScene-1].SetActive(false);
             currentScene++;
         }

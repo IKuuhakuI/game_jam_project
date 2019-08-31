@@ -19,7 +19,6 @@ public class PointerController : MonoBehaviour
     {
         timeRemaining = player.GetComponent<playerController>().deathTimer;
         rotationPointer = (((timeRemaining / gameplayTime) * 360) -270);
-        Debug.Log(rotationPointer);
         gameObject.GetComponentInChildren<RectTransform>().rotation = Quaternion.Euler(0f, 0f, rotationPointer);
 
     }

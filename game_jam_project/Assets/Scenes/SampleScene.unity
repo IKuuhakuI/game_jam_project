@@ -4831,7 +4831,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1771742554
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4937,7 +4937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.1
   jumpForce: 900
-  damage: 2
+  damage: 1
   life: 0
   maxLife: 10
   timeToDeath: 180
@@ -4950,6 +4950,10 @@ MonoBehaviour:
   animator: {fileID: 1771742558}
   score: 0
   gameOver: {fileID: 513874899}
+  playerSpriteRender: {fileID: 1771742554}
+  takingDmg: 0
+  timeDmg: 0
+  clock: {fileID: 1944573545}
 --- !u!95 &1771742558
 Animator:
   serializedVersion: 3

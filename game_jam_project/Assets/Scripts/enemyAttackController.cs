@@ -26,7 +26,12 @@ public class enemyAttackController : MonoBehaviour
             collision.GetComponent<playerController>().damageTimeMultiplier += 0.25f;
             GetComponentInParent<enemyController>().isAttacking = false;
             GetComponentInParent<enemyController>().timer = 0;
+            //
+            collision.GetComponent<playerController>().takingDmg = true;
+            //
             gameObject.SetActive(false);
+
+           
             if (GetComponentInParent<enemyController>().attackDir)
             {
                 collision.GetComponent<Rigidbody2D>().AddForce(new Vector2(150, 300));

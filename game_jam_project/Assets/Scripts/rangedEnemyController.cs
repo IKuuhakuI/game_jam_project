@@ -12,9 +12,16 @@ public class rangedEnemyController : MonoBehaviour
     public float timer = 0, MaxTime;
     private Vector3 scale;
     public bool attackDir; //true = right
+    public bool takingDmg;
+    public float timeDmg;
+    private Color red, white;
+    public SpriteRenderer orangeGbSR;
     // Start is called before the first frame update
     void Start()
     {
+        red = new Color(1f, 0.6f, 0.6f);
+        white = new Color(1f, 1f, 1f);
+        takingDmg = false;
         scale = transform.localScale;
         player = GameObject.FindGameObjectWithTag("Player");
         gameController = GameObject.FindGameObjectWithTag("GameController");
@@ -38,5 +45,22 @@ public class rangedEnemyController : MonoBehaviour
             Destroy(this.gameObject);
             gameController.GetComponent<gameController>().currentNumberofEnemies -= 1;
         }
+
+        if (takingDmg)                                                     //MUDA COR QUANDO TOMA DANO
+        {
+            Debug.Log("danoIni");
+            timeDmg += Time.deltaTime;
+            if (timeDmg <= 0.5)
+            {
+                orangeGbSR.color = red;
+            }
+            else
+            {
+                takingDmg = false;
+                timeDmg = 0f;
+                orangeGbSR.color = white;
+            }
+        }
+
     }
 }

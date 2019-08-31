@@ -274,3 +274,6 @@ MonoBehaviour:
   timer: 0
   MaxTime: 4
   attackDir: 0
+  takingDmg: 0
+  timeDmg: 0
+  orangeGbSR: {fileID: 7686974840286841960}
