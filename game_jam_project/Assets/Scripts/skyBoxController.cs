@@ -45,14 +45,14 @@ public class skyBoxController : MonoBehaviour
             spriteDay.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(maxOpacity, minimumOpacity, t)); //selecione a cor aqui
             cloudDay.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(maxOpacity, minimumOpacity, t)); //selecione a cor aqui
         }
-        else if (player.GetComponent<playerController>().phase == 2)
+        else if (player.GetComponent<playerController>().phase == 2 || player.GetComponent<playerController>().phase==3)
         {
             pdt = (third) - (pdt - third);
             t = pdt / (third);
             spriteNoon.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(maxOpacity, minimumOpacity, t)); //selecione a cor aqui
             cloudNoon.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(maxOpacity, minimumOpacity, t)); //selecione a cor aqui
         }
-        else if (player.GetComponent<playerController>().phase == 3)
+        else if (player.GetComponent<playerController>().phase == 4)
         {
             minIntensity = globalLight.GetComponent<Light2D>().intensity;
             t = (third -pdt) / (third);

@@ -22,10 +22,10 @@ AnimationClip:
     - time: 0
       value: {fileID: 7907020310977492838, guid: ab2a22657f7a0b84ab72f7db1cc318c3,
         type: 3}
-    - time: 0.1
+    - time: 0.05
       value: {fileID: -4979885211155798248, guid: ab2a22657f7a0b84ab72f7db1cc318c3,
         type: 3}
-    - time: 0.2
+    - time: 0.1
       value: {fileID: 2214680331318257389, guid: ab2a22657f7a0b84ab72f7db1cc318c3,
         type: 3}
     - time: 0.41666666
@@ -79,7 +79,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.41186523
+  - time: 0.41666666
     functionName: setAttackingFalse
     data: 
     objectReferenceParameter: {fileID: 0}

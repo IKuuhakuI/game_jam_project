@@ -26,7 +26,7 @@ public class arrowController : MonoBehaviour
         if (collision.tag == "Player")
         {
 
-            collision.GetComponent<playerController>().damageTimeMultiplier += 0.3f;
+            collision.GetComponent<playerController>().damageTimeMultiplier += 0.2f;
             collision.GetComponent<playerController>().takingDmg = true;
             collision.GetComponent<AudioSource>().Play();
             

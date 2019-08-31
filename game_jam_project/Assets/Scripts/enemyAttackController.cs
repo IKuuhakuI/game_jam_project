@@ -18,18 +18,18 @@ public class enemyAttackController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hit");
         if (collision.tag == "Player")
         {
             //GameObject.Find("skyBox").GetComponent<skyBoxController>().danoPulaTempo += GetComponentInParent<enemyController>().damage; //o dano faz o tempo pular pra frente
             collision.GetComponent<playerController>().life -= GetComponentInParent<enemyController>().damage;
-            collision.GetComponent<playerController>().damageTimeMultiplier += 0.4f;
+            collision.GetComponent<playerController>().damageTimeMultiplier += 0.3f;
             GetComponentInParent<enemyController>().isAttacking = false;
             GetComponentInParent<enemyController>().timer = 0;
             //
             collision.GetComponent<playerController>().takingDmg = true;
             //
             collision.GetComponent<AudioSource>().Play();
+
             gameObject.SetActive(false);
             
 

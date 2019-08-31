@@ -265,11 +265,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  maxAttackSpeed: 3
+  maxAttackSpeed: 2.5
+  forceUp: 700
+  forceSide: 500
   health: 2
   player: {fileID: 0}
   gameController: {fileID: 0}
   projectile: {fileID: 6079346819887096207, guid: 9815ccd6a876cbd4daf85bd02759a048,
+    type: 3}
+  creator: {fileID: 0}
+  curvedProjectile: {fileID: 8388393960265299768, guid: 3238536760793c04cb86eda036f00f7b,
     type: 3}
   timer: 0
   MaxTime: 4

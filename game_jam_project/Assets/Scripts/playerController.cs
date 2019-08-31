@@ -48,17 +48,23 @@ public class playerController : MonoBehaviour
         highScoreText.text= "High Score: " + scoreKeeperObject.GetComponent<scoreKeeper>().highScore;
         deathTimer -= Time.deltaTime*damageTimeMultiplier;
         timeText.text = deathTimer.ToString("F2");
-        if (deathTimer<=2*timeToDeath/3 && phase==1)
+        if (deathTimer<=3*timeToDeath/4 && phase==1)
         {
             phase = 2;
-            speed = speed * 0.75f;
-            jumpForce = jumpForce * 0.75f;
+            speed = speed * 0.6f;
+            jumpForce = jumpForce * 0.7f;
             animator.SetBool("isOld1", true);
         }
-        else if (deathTimer <= timeToDeath / 3 && phase == 2)
+        else if (deathTimer <= timeToDeath / 2 && phase == 2)
         {
             phase = 3;
-            speed = speed * 0.75f;
+            speed = speed * 0.6f;
+            jumpForce = jumpForce * 0.7f;
+        }
+        else if (deathTimer <= timeToDeath / 3 && phase == 3)
+        {
+            phase = 4;
+            speed = speed * 0.6f;
             jumpForce = jumpForce * 0.75f;
             damage = damage / 2;
             animator.SetBool("isOld1", false);

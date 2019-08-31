@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class attackController : MonoBehaviour
 {
+    public AudioSource killAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +25,9 @@ public class attackController : MonoBehaviour
             collision.GetComponent<enemyController>().takingDmg = true;
             if (collision.GetComponent<enemyController>().health<=0)
             {
+                killAudio.Play();
                 GetComponentInParent<playerController>().score += 1;
+
             }
             
         }
@@ -35,6 +38,7 @@ public class attackController : MonoBehaviour
             collision.GetComponent<rangedEnemyController>().creator.GetComponent<enemySpawner>().spawnedRanged = false;
             if (collision.GetComponent<rangedEnemyController>().health <= 0)
             {
+                killAudio.Play();
                 GetComponentInParent<playerController>().score += 1;
             }
         }

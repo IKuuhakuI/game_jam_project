@@ -10,7 +10,7 @@ public class enemyController : MonoBehaviour
     public float health;
     public GameObject player, gameController;
     private Vector3 playerPosition;
-    private float enemyDist = 1.5f;
+    private float enemyDist = 1.2f;
     public float timer = 0, MaxTime;
     private Vector3 scale;
     public bool attackDir; //true = right
@@ -47,8 +47,9 @@ public class enemyController : MonoBehaviour
         }
         if (health <= 0)
         {
-            Destroy(this.gameObject);
             gameController.GetComponent<gameController>().currentNumberofEnemies -= 1;
+            Destroy(this.gameObject);
+            
         }
 
         if (!isAttacking && timer <= MaxTime)

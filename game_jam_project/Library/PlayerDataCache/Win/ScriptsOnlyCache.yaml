@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - PointerController
     - arrowController
     - attackController
+    - curvedArrowController
     - enemyAttackController
     - enemyBowController
     - enemyController
@@ -31,7 +32,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TMP_SubMeshUI
     - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -41,6 +41,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -81,27 +82,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10558}
     - Class: 114
-      Script: {instanceID: 10584}
-    - Class: 114
       Script: {instanceID: 10910}
     - Class: 114
-      Script: {instanceID: 10958}
+      Script: {instanceID: 10960}
     - Class: 114
-      Script: {instanceID: 11622}
+      Script: {instanceID: 11624}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 11990}
+      Script: {instanceID: 11992}
     - Class: 114
-      Script: {instanceID: 12286}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 12398}
+      Script: {instanceID: 12702}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 12724}
     - Class: 114
-      Script: {instanceID: 12722}
-    - Class: 114
-      Script: {instanceID: 13058}
+      Script: {instanceID: 13060}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -162,33 +159,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10936}
     - Class: 114
-      Script: {instanceID: 10966}
+      Script: {instanceID: 10944}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 10968}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11908}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11910}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 12286}
+      Script: {instanceID: 12156}
     - Class: 114
-      Script: {instanceID: 12398}
+      Script: {instanceID: 12288}
     - Class: 114
-      Script: {instanceID: 12452}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 12462}
+      Script: {instanceID: 12454}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12464}
     - Class: 114
-      Script: {instanceID: 13018}
+      Script: {instanceID: 12724}
     - Class: 114
-      Script: {instanceID: 13058}
+      Script: {instanceID: 13020}
     - Class: 114
-      Script: {instanceID: 13130}
+      Script: {instanceID: 13060}
+    - Class: 114
+      Script: {instanceID: 13132}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -280,7 +279,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: c501363763d4b48bb8a3a652d5d7fcd7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: attackController
@@ -490,6 +489,12 @@ ScriptsOnlyBuild:
     className: arrowController
   - hash:
       serializedVersion: 2
+      Hash: 447482f1f5312d702e6096baf2838efc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: curvedArrowController
+  - hash:
+      serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -544,7 +549,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: de15a98dd6ef2556046afb658236dc76
+      Hash: 50e9f50b9f4e434a9ac45b3bcb4b3cab
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: rangedEnemyController
@@ -882,4 +887,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Luiz/workspace/game_jam/build_beta_v0.1/game_jam_project.exe
+  playerPath: C:/Users/Luiz/workspace/game_jam/All_Heroes_Must_Die_Vfinal/game_jam_project.exe

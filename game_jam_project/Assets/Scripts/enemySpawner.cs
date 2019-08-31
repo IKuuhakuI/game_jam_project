@@ -21,7 +21,15 @@ public class enemySpawner : MonoBehaviour
     {
         if (gameController.GetComponent<gameController>().currentNumberofEnemies<= gameController.GetComponent<gameController>().maxNumberofEnemies)
         {
-            spawnTimer += Time.deltaTime;
+            if (gameController.GetComponent<gameController>().currentNumberofEnemies <= 4)
+            {
+                spawnTimer += 1.8f*Time.deltaTime;
+            }
+            else
+            {
+                spawnTimer += Time.deltaTime;
+            }
+            
         }
         if (spawnTimer>=spawnTime)
         {
