@@ -17,6 +17,7 @@ public class playerController : MonoBehaviour
     private Vector3 scale;
     public Animator animator;
     public int score;
+    public GameObject gameOver;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,6 +57,8 @@ public class playerController : MonoBehaviour
         if (deathTimer <= 0)
         {
             timeText.text = "0";
+            gameOver.SetActive(true);
+            gameOver.GetComponentInChildren<TextMeshProUGUI>().text = score.ToString();
             this.gameObject.SetActive(false);
         }       
 
