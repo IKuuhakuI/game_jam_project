@@ -56,8 +56,7 @@ public class skyBoxController : MonoBehaviour
         {
             minIntensity = globalLight.GetComponent<Light2D>().intensity;
             t = (third -pdt) / (third);
-            Debug.Log(t);
-            globalLight.GetComponent<Light2D>().intensity = Mathf.SmoothStep(minIntensity, 0.001f, t);
+            globalLight.GetComponent<Light2D>().intensity = minIntensity-Mathf.Lerp(0, minIntensity, t);
 
         }
         t2 = (duration- player.GetComponent<playerController>().deathTimer) / duration;

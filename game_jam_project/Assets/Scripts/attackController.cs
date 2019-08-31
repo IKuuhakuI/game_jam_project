@@ -32,6 +32,7 @@ public class attackController : MonoBehaviour
         {
             collision.GetComponent<rangedEnemyController>().health -= GetComponentInParent<playerController>().damage;
             collision.GetComponent<rangedEnemyController>().takingDmg = true;
+            collision.GetComponent<rangedEnemyController>().creator.GetComponent<enemySpawner>().spawnedRanged = false;
             if (collision.GetComponent<rangedEnemyController>().health <= 0)
             {
                 GetComponentInParent<playerController>().score += 1;

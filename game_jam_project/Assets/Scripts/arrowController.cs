@@ -23,12 +23,12 @@ public class arrowController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hit");
         if (collision.tag == "Player")
         {
 
-            collision.GetComponent<playerController>().damageTimeMultiplier += 0.2f;
+            collision.GetComponent<playerController>().damageTimeMultiplier += 0.3f;
             collision.GetComponent<playerController>().takingDmg = true;
+            collision.GetComponent<AudioSource>().Play();
             
         }
         Destroy(gameObject);

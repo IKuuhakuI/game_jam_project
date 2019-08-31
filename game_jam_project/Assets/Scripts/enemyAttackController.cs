@@ -23,15 +23,17 @@ public class enemyAttackController : MonoBehaviour
         {
             //GameObject.Find("skyBox").GetComponent<skyBoxController>().danoPulaTempo += GetComponentInParent<enemyController>().damage; //o dano faz o tempo pular pra frente
             collision.GetComponent<playerController>().life -= GetComponentInParent<enemyController>().damage;
-            collision.GetComponent<playerController>().damageTimeMultiplier += 0.25f;
+            collision.GetComponent<playerController>().damageTimeMultiplier += 0.4f;
             GetComponentInParent<enemyController>().isAttacking = false;
             GetComponentInParent<enemyController>().timer = 0;
             //
             collision.GetComponent<playerController>().takingDmg = true;
             //
+            collision.GetComponent<AudioSource>().Play();
             gameObject.SetActive(false);
+            
 
-           
+
             if (GetComponentInParent<enemyController>().attackDir)
             {
                 collision.GetComponent<Rigidbody2D>().AddForce(new Vector2(150, 300));

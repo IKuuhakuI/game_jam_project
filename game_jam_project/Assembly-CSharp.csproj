@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scoreKeeper.cs" />
     <Compile Include="Assets\Scripts\arrowController.cs" />
     <Compile Include="Assets\Scripts\attackController.cs" />
     <Compile Include="Assets\Scripts\enemyAttackController.cs" />

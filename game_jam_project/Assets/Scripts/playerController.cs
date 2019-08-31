@@ -9,7 +9,7 @@ public class playerController : MonoBehaviour
     public float speed, jumpForce, damage;
     public float life, maxLife;
     public float timeToDeath, deathTimer, damageTimeMultiplier; //deathTimer -> time remaining //timeToDeath -> gameplay duration
-    public TextMeshProUGUI lifeText, timeText, scoreText;
+    public TextMeshProUGUI lifeText, timeText, scoreText, highScoreText;
     private float boundaryLeft = -8.89f;
     private float boundaryRight = 8.89f;
     public int phase;
@@ -17,8 +17,9 @@ public class playerController : MonoBehaviour
     private Vector3 scale;
     public Animator animator;
     public int score;
-    public GameObject gameOver;
+    public GameObject gameOver, scoreKeeperObject;
     public SpriteRenderer playerSpriteRender;
+    public AudioSource damageAudioSource, clockAudioSource;
     public bool takingDmg;
     public float timeDmg;
     public Image clock;
@@ -26,6 +27,7 @@ public class playerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        scoreKeeperObject = GameObject.FindGameObjectWithTag("scoreKeeper");
         red = new Color(1f, 0.6f, 0.6f);
         white = new Color(1f, 1f, 1f);
         takingDmg = false;
@@ -43,6 +45,7 @@ public class playerController : MonoBehaviour
     {
         //lifeText.text = life.ToString();
         scoreText.text = "Current Score: " + score;
+        highScoreText.text= "High Score: " + scoreKeeperObject.GetComponent<scoreKeeper>().highScore;
         deathTimer -= Time.deltaTime*damageTimeMultiplier;
         timeText.text = deathTimer.ToString("F2");
         if (deathTimer<=2*timeToDeath/3 && phase==1)
@@ -65,6 +68,10 @@ public class playerController : MonoBehaviour
         if (deathTimer <= 0)
         {
             timeText.text = "0";
+            if (score> scoreKeeperObject.GetComponent<scoreKeeper>().highScore)
+            {
+                scoreKeeperObject.GetComponent<scoreKeeper>().highScore = score;
+            }
             gameOver.SetActive(true);
             gameOver.GetComponentInChildren<TextMeshProUGUI>().text = score.ToString();
             this.gameObject.SetActive(false);

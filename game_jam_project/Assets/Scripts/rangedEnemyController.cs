@@ -6,7 +6,7 @@ public class rangedEnemyController : MonoBehaviour
 {
     public float damage, maxAttackSpeed;
     public float health;
-    public GameObject player, gameController, projectile;
+    public GameObject player, gameController, projectile, creator;
     private GameObject temp;
     private Vector3 playerPosition;
     public float timer = 0, MaxTime;

@@ -7,6 +7,7 @@ public class enemySpawner : MonoBehaviour
     public float spawnTimer, spawnTime, maxSpawnTime, spawnMultiplier;
     public GameObject enemyPrefab, gameController, rangedPrefab;
     private GameObject temp;
+    public bool spawnedRanged;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,15 +25,17 @@ public class enemySpawner : MonoBehaviour
         }
         if (spawnTimer>=spawnTime)
         {
-            if (Random.Range(0f,1f)>=0.3)
+            if (Random.Range(0f,1f)>=0.4 || spawnedRanged)
             {
                 temp = Instantiate(enemyPrefab, transform);
                 temp.transform.localScale = new Vector3(transform.localScale.x * 3, 3, 0);
             }
             else
             {
-                temp = Instantiate(rangedPrefab, transform.position, transform.rotation);
+                spawnedRanged = true;
+                temp = Instantiate(rangedPrefab, transform.Find("spawnpoint").transform.position, transform.rotation);
                 temp.transform.localScale = new Vector3(transform.localScale.x*3, 3, 0);
+                temp.GetComponent<rangedEnemyController>().creator = gameObject;
             }
             spawnTimer = 0;
             spawnTime = Random.Range(1.5f * spawnMultiplier, maxSpawnTime * spawnMultiplier);
