@@ -4705,7 +4705,7 @@ MonoBehaviour:
   damage: 2
   life: 0
   maxLife: 10
-  timeToDeath: 30
+  timeToDeath: 180
   deathTimer: 0
   damageTimeMultiplier: 1
   lifeText: {fileID: 1805194139}
